@@ -77,7 +77,7 @@ Message:
 
 ---
 
-### Stage 5 — Obsidian (Legend)
+### Stage ∞ – Obsidian (Last_stage_level_💯)
 Unlocks:
 - Nested timelines
 - Distributed render
@@ -115,4 +115,4 @@ Message:
 
 ## Status
 
-Phase 8 — Upgrade progression finalized
+Phase 9 – Obsidian finalized (system complete)
