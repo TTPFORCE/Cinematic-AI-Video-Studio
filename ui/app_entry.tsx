@@ -1,15 +1,12 @@
-// app_entry.tsx
 import React from "react";
-import ReactDOM from "react-dom/client";
-import TimelineEditor from "./ui/TimelineEditor";
+import { createRoot } from "react-dom/client";
+import App from "./ui/App";
 
-const root = document.createElement("div");
-document.body.style.margin = "0";
-document.body.style.background = "#000";
-document.body.appendChild(root);
+const container = document.getElementById("root");
 
-ReactDOM.createRoot(root).render(
-  <React.StrictMode>
-    <TimelineEditor />
-  </React.StrictMode>
-);
+if (!container) {
+  throw new Error("Root container missing in index.html");
+}
+
+const root = createRoot(container);
+root.render(<App />);
